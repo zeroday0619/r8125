@@ -1,6 +1,6 @@
 # r8125
 
-dkms source for 2.5G Ethernet LINUX driver r8125
+dkms source for 2.5G Ethernet LINUX driver r8125 for gigabit lite
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MONaH-Rasta/r8125?sort=semver&style=for-the-badge)
 
