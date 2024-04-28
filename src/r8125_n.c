@@ -6182,8 +6182,6 @@ rtl8125_set_speed_xmii(struct net_device *dev,
         //Enable Giga Lite
         rtl8125_set_eth_phy_ocp_bit(tp, 0xA428, BIT_9);
         rtl8125_set_eth_phy_ocp_bit(tp, 0xA5EA, BIT_0);
-        rtl8125_set_d0_speedup_speed(tp);
-
 
         if (!rtl8125_is_speed_mode_valid(speed)) {
                 speed = SPEED_2500;
